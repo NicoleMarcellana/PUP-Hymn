@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: #800000;
+}
+
+.image-container {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.PUPLogo {
+    height: 80px;
+    width: auto;
+}
+
+.PUP, .tagline {
+    position: absolute;
+    left: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .75px;
+    white-space: nowrap;
+}
+
+.PUP {  
+    color: rgba(255, 255, 255, 0.916);
+    font-size: 25px;
+}
+
+.tagline {
+    top: 25px;
+    color: rgba(255, 255, 255, 0.786);
+    top: 30px;
+}
+
+.PUPCampus, .overlay {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 100px;
+}
+
+.overlay {
+    background-color: #800202a6;
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    line-height: 50px;
+}
+.music-player {
+    position: absolute;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lyrics-container {
+    position: absolute;
+    width: 100vw;
+    max-height: 80vh;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+
+.lyrics {
+    color: rgba(255, 255, 255, 0.384);
+    font-size: 35px;
+    line-height: 20px;
+    
+}
+
+.lyrics p.current {
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+.title{
+    font-weight: bold ;
+}
+
+.audio-controls {
+    position: fixed;
+    width: 100;
+    bottom: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 0px;
+}
+
+.audio-controls audio {
+    width: 100vw;
+}
+
